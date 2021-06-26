@@ -1,30 +1,43 @@
 ![](RackMultipart20210625-4-1utfyc8_html_4ab7d68794401d90.png)
 
-Red Team:
+# Wireless Infrastructure Analysis
+## Overview of Wireless Infrastructure Analysis
+### Background
 
-Members: Jeff Bailey, Sindie Castro, Jacqueline Esbri, Manny Pineda, Josh Shehan
+Our client works in the telecom industry for a wireless carrier company and is looking to expand to other cities. The client has asked our team of professional data analysts to predict the number of towers the company will need to expand their services in a certain city.
 
-For the final project, we selected a topic on wireless infrastructure. One of our team members, Josh Shehan, works in the telecom industry. He currently designs antenna systems for a variety of applications. So, Josh suggested we work on something related to commercial wireless telecommunications services. We all agreed, since we found the topic to be interesting for our project.
+### Purpose
 
-Josh also informed us that there was a Kaggle dataset for telecom facilities in San Francisco (SF), and suggested use of the data and approach it from a wireless carrier perspective. For instance, say T-Mobile wanted to expand to a city where they currently have a limited number of cell towers. In this case, we can use the SF telecom facility data along with demographic data for SF to predict the numbers of towers T-Mobile might need in a place like Austin, TX.
+The purpose of this project is to analyze Kaggle dataset and predict he number of towrs the wireless carrier company will need.
+
+### Resources
+
+The technologies used for this project includes:
+- Technologies
+- languages 
+- tools 
+- algorithms
+
+### Communication Protocol
+
+To prepare for this project, the team of analysts refered to as teh "Red Team" created a communication protocol that includes the following:
+
+- Post team meeting schedule and invitation information on Slack. 
+- Inform the acting leader via Slack, text message, or other social media outlets when absent from a scheduled meeting.
+- Ask for help when stuck on an individual task.
+- Inform the acting leader if the task will be completed late.
+- Inform the acting leader if an emergency situation presents itself and the team needs to complete the task.
+- Praise a team member for a work well done.
+- Team leader will update team members of any changes due to emergencies or a team member needing help with a task.
+
+### Reason for topic selection
 
 This topic is also relevant and practical with the push for 5G, and potential stakeholders (e.g., employers) could relate to it and/or benefit from it. It could also impress any company that is interested in communications systems.
 
-The dataset was inspected to ensure we had at least 1,000 data points. After it was confirmed that the dataset had over 1,200 rows, it was downloaded for use. Another dataset was also chosen as a backup, which had over 700 rows. We are contemplating on using both datasets, and therefore have well over the required number of data points. The dataset is titled SF\_wireless\_facility\_kaggle\_data.
+### Data Description
 
-Next, Sindie created our repo on GitHub. The repo name was then discussed among the team members and everyone agreed to name the repo Wireless\_Infrastructure\_Analysis. Invitiations were sent by Sindie to collaborate on the repo on GitHub. Now, we are working on creating our branches to the repo so we can begin the collaborating process.
+THe data selected had over 1,200 rows, it was downloaded for use. Another dataset was also chosen as a backup, which had over 700 rows. We are contemplating on using both datasets, and therefore have well over the required number of data points. The dataset is titled SF\_wireless\_facility\_kaggle\_data. 
 
-**Content**
+The dataset was inspected to ensure we had at least 1,000 data points. After it was confirmed that the dataset.
 
-The presentation should tell a cohesive story about the project and include the following:
-
-- Selected topic
-- Reason the topic was selected
-- Description of the source of data
-- Questions the team hopes to answer with the data
-- Description of the data exploration phase of the project
-- Description of the analysis phase of the project
-- Technologies, languages, tools, and algorithms used throughout the project
-- Result of analysis
-- Recommendation for future analysis
-- Anything the team would have done differently
+### Project Questions 
