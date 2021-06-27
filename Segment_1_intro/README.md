@@ -1,26 +1,29 @@
 ![](RackMultipart20210625-4-1utfyc8_html_4ab7d68794401d90.png)
 
 # Wireless Infrastructure Analysis
+
 ## Overview of Wireless Infrastructure Analysis
+
 ### Background
 
-Our client works in the telecom industry for a wireless carrier company and is looking to expand to other cities. The client has asked our team of professional data analysts to predict the number of towers the company will need to expand their services in a certain city.
+Our client is a startup company that plans to provide cell tower maintenance and installation services for wireless carriers. They believe the introduction of 5G, along with required upgrades and maintenance on current generation wireless systems, provides a huge market for their services. The startup plans to launch in San Francisco (SF), CA. 
 
 ### Purpose
 
-The purpose of this project is to analyze Kaggle dataset and predict he number of towrs the wireless carrier company will need.
+The purpose of this project is to investigate existing cell tower sites in SF to determine the capital needed for a successful launch, based on the size of the market.
 
 ### Resources
 
 The technologies used for this project includes:
-- Technologies
-- languages 
-- tools 
-- algorithms
+
+- SQLite
+- Python & Pandas library
+- Postgres, MongoDB 
+- Algorithm – Scikit-Learn
 
 ### Communication Protocol
 
-To prepare for this project, the team of analysts refered to as teh "Red Team" created a communication protocol that includes the following:
+To prepare for this project, the team of analysts referred to as the "Red Team" created a communication protocol that includes the following:
 
 - Post team meeting schedule and invitation information on Slack. 
 - Inform the acting leader via Slack, text message, or other social media outlets when absent from a scheduled meeting.
@@ -32,12 +35,20 @@ To prepare for this project, the team of analysts refered to as teh "Red Team" c
 
 ### Reason for topic selection
 
-This topic is also relevant and practical with the push for 5G, and potential stakeholders (e.g., employers) could relate to it and/or benefit from it. It could also impress any company that is interested in communications systems.
+This topic is relevant and practical with the push for 5G, and potential stakeholders (e.g., employers) could relate to it and/or benefit from it. It could also impress any company that is interested in communications systems.
 
 ### Data Description
 
-THe data selected had over 1,200 rows, it was downloaded for use. Another dataset was also chosen as a backup, which had over 700 rows. We are contemplating on using both datasets, and therefore have well over the required number of data points. The dataset is titled SF\_wireless\_facility\_kaggle\_data. 
+The data selected had over 1,200 rows. It was downloaded from Kaggle for use. Another dataset was also chosen as a backup, which had over 700 rows. The dataset is titled SF\_wireless\_facility\_kaggle\_data. 
 
-The dataset was inspected to ensure we had at least 1,000 data points. After it was confirmed that the dataset.
+The dataset was inspected to ensure we had at least 1,000 data points. After inspection, the next step will include deciding if we want to drop or replace null rows ( for example).
 
-### Project Questions 
+### Project Questions
+
+The question for our project are the following:
+
+- What will be the initial investment for the startup?
+- Will the radio frequency range support 5G?
+- Does the aggregate power support the addition of frequency band?
+- What is the height to the top of antenna?
+
