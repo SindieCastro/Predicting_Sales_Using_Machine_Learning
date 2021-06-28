@@ -50,5 +50,5 @@ The question for our project are the following:
 - What will be the initial investment for the startup?
 - Will the radio frequency range support 5G?
 - Does the aggregate power support the addition of frequency band?
-- What is the height to the top of antenna?
+- What is the height to the top of the cell tower?
 
