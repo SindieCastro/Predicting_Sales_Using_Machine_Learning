@@ -41,7 +41,7 @@ This topic is relevant and practical with the push for 5G, and potential stakeho
 
 The data selected had over 1,200 rows. It was downloaded from Kaggle for use. Another dataset was also chosen as a backup, which had over 700 rows. The dataset is titled SF\_wireless\_facility\_kaggle\_data. 
 
-The dataset was inspected to ensure we had at least 1,000 data points. After inspection, the next step will include deciding if we want to drop or replace null rows ( for example).
+The dataset was inspected to ensure we had at least 1,000 data points. After inspection, the next step will include deciding if we want to drop or replace null rows.
 
 ### Project Questions
 
@@ -50,5 +50,5 @@ The question for our project are the following:
 - What will be the initial investment for the startup?
 - Will the radio frequency range support 5G?
 - Does the aggregate power support the addition of frequency band?
-- What is the height to the top of antenna?
+- What is the height to the top of the cell tower?
 
