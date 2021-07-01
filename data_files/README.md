@@ -50,6 +50,8 @@ This project attempts to answer the question if machine learning can predict the
 
 Content source: Centers for Disease Control and Prevention, National Center for Injury Prevention and Control, https://webappa.cdc.gov/sasweb/ncipc/leadcause.html, June 30, 2021
 
-Image: https://www.techugo.com/, June 30, 2021
-       https://www.techugo.com/blog/ai-can-predict-death-95-accuracy/
+Image: June 30, 2021
+- https://www.techugo.com/
+
+- https://www.techugo.com/blog/ai-can-predict-death-95-accuracy/
 
