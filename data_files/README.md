@@ -1,4 +1,4 @@
-![brain.PNG](images/brain.png)
+![readme1.PNG](images/readme1.png)
 
 # Leading Causes of Death
 
@@ -51,5 +51,4 @@ This project attempts to answer the question if machine learning can predict the
 - Content source: Centers for Disease Control and Prevention, National Center for Injury Prevention and Control, accessed 30 June 2021 <https://webappa.cdc.gov/sasweb/ncipc/leadcause.html> 
 
 
-- Ankit Singh 2018, digital image, accessed 30 June 2021, <https://www.techugo.com/blog/ai-can-predict-death-95-accuracy/>
-
+- accessed 1 July, 2021, <https://d9hhrg4mnvzow.cloudfront.net/go.split.io/understanding-experimentation/3a86cce0-landing-experimentation-ebook_100000014t0kh000000028.png>
