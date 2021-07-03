@@ -1,6 +1,6 @@
 # Predicting Sales Using Machine Learning
 
-![Red_Squadron.PNG](PNGs/Red_Squadron.png)
+![Red_Squadron.PNG](images/Red_Squadron.png)
 
 ### Communication Protocol
 To prepare for this project, the team of analysts referred to as the "Red Team" created a communication protocol that includes the following:
