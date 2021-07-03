@@ -62,9 +62,12 @@ The CSV dataset has 16,599 rows and 11 columns. The dataset contains the followi
 
 This project attempts to answer how profitable are the sales of North America based on sales from other countries, genre, and platform.
 
+## Machine Learning Model
+
+
 
 ## References
 
-- accessed 2 July, 2021, <https://www.kaggle.com/gregorut/videogamesales?select=vgsales.csv>
+- <https://www.kaggle.com/gregorut/videogamesales?select=vgsales.csv>, accessed 2 July, 2021.
 
-- accessed 3 July, 2021, <https://techcrunch.com/2015/10/31/the-history-of-gaming-an-evolving-community/> 
+- <https://techcrunch.com/2015/10/31/the-history-of-gaming-an-evolving-community/>, accessed 3 July, 2021.
