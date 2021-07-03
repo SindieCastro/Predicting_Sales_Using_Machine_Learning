@@ -10,7 +10,7 @@ Our goal is to predict sales of video games using Machine Learning (ML) based on
 
 ## Purpose
 
-The gaming industry is immensely large and it is continuing to grow. As such, many companies want to be part of the growing revenue stream. Our goal is to use Machine Learning to predict sales on North America. We believe that using ML will lead to a more accurate prediction.
+The gaming industry is immensely large and it is continuing to grow. As such, many companies want to be part of the growing revenue stream. Our task entails building a predictive ML model that to find patterns in new and unseen sales data. We believe that using ML will allow us to leverage existing algorithms to learn from from the data and lead more accurate predictions.
 
 To accomplish this task, we will build and evaluate several ML models or algorithms. Once we implement the algorithms, we will evaluate the performance to see how well the models predict the data. Our main goal is to market our algorithm to existing companies in the gaming sector or organizations looking to get involved in the industry.
 
