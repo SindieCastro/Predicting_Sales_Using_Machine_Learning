@@ -10,7 +10,7 @@ Our goal is to predict sales of video games using Machine Learning (ML) based on
 
 ## Purpose
 
-The gaming industry is immensely large and it is continuing to grow. As such, many companies want to be part of the the growing revenue stream. Our goal is to use Machine Learning to predict sales on North America. We believe that using ML will lead to a more accurate prediction.
+The gaming industry is immensely large and it is continuing to grow. As such, many companies want to be part of the growing revenue stream. Our goal is to use Machine Learning to predict sales on North America. We believe that using ML will lead to a more accurate prediction.
 
 To accomplish this task, we will build and evaluate several ML models or algorithms. Once we implement the algorithms, we will evaluate the performance to see how well the models predict the data. Our main goal is to market our algorithm to existing companies in the gaming sector or organizations looking to get involved in the industry.
 
@@ -39,12 +39,12 @@ To prepare for this project, a team of analysts referred to as the "Red Team" cr
 - Inform the acting leader when emergency task reassignment will need to take place
 - Praise a team member for a work well done
 - Team leader will update team members of any changes due to emergencies or a team member needing help with a task
-- Maintain open communication and active listening to prevent minor conflicts from being blown out of proportion.
+- Maintain open communication and active listening to prevent conflicts 
 
 
 ## Reason for topic selection
 
-Predicting video game sales was considered to be an interesting and fun topic to analyze. Video games have been around for many years and have evolved significantly over time. Game development is also becoming increasingly common in many organizations. It also a huge market that provides entertainment for children and adults alike. 
+Predicting video game sales was considered to be an interesting and fun topic to analyze. Video games have been around for many years and have evolved significantly over time. Game development is also becoming increasingly common in many organizations. It is also a huge market that provides entertainment for children and adults alike. 
 
 
 ## Data Description
