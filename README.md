@@ -67,7 +67,4 @@ This project attempts to answer how profitable are the sales of North America ba
 
 - accessed 2 July, 2021, <https://www.kaggle.com/gregorut/videogamesales?select=vgsales.csv>
 
-- accessed 3 July, 2021, <https://techcrunch.com/2015/10/31/the-history-of-gaming-an-evolving-community/>
-
-- <https://www.shutterstock.com/g/karnoff>
-
+- accessed 3 July, 2021, <https://techcrunch.com/2015/10/31/the-history-of-gaming-an-evolving-community/> 
