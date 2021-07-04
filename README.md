@@ -50,13 +50,13 @@ Predicting video game sales was considered to be an interesting and fun topic to
 ## Data Description
 
 The CSV dataset has 16,599 rows and 11 columns. The dataset contains the following columns:
-- Rank
-- Name
-- Platform
-- Year
-- Genre
-- Publisher
-- Sales (NA, EU, JP, Other, Global)
+- Rank: The ranking of overall sales
+- Name: The name of the games
+- Platform: The platform of the games release
+- Year: The year of the game's release
+- Genre: The genre of the game
+- Publisher: The publisher of the game
+- Sales (NA, EU, JP, Other, Global): Sales in North America, Sales in Europe, Sales in Japan, Sales in the rest of the world, and Total worldwide sales
 
 ## Project Question
 
