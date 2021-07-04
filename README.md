@@ -53,7 +53,7 @@ The CSV dataset has 16,599 rows and 11 columns. The dataset contains the followi
 - Rank: The ranking of overall sales
 - Name: The name of the games
 - Platform: The platform of the games release
-- Year: The year of the game's release
+- Year: The year the game was released
 - Genre: The genre of the game
 - Publisher: The publisher of the game
 - Sales (NA, EU, JP, Other, Global): Sales in North America, Sales in Europe, Sales in Japan, Sales in the rest of the world, and Total worldwide sales
