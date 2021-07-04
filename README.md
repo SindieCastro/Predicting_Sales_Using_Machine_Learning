@@ -1,4 +1,4 @@
-![readme1.PNG](images/readme3.png)
+![readme1.PNG](images/readme4.png)
 
 # Predicting Sales Using Machine Learning
 
