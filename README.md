@@ -10,9 +10,9 @@ Our goal is to predict sales of video games using Machine Learning (ML) based on
 
 ## Purpose
 
-The gaming industry is immensely large and it is continuing to grow. As such, many companies want to be part of the growing revenue stream. Our task entails building a predictive ML model to find patterns in new and unseen sales data. We believe that using ML will allow us to leverage existing algorithms to learn from the data and lead us to more accurate predictions.
+The gaming industry is immensely large and it is continuing to grow. As such, many companies want to be part of the growing revenue stream. Our task entails building a predictive ML model to find patterns in our existing data, and in new and unseen sales data. We believe that using ML will allow us to leverage existing algorithms to learn from the data and lead us to more accurate predictions.
 
-To accomplish this task, we will build and evaluate several ML models or algorithms(e.g.,Logistic regression, Neural Network). Once we implement the algorithms, we will evaluate the performance to see how well the models predict the data. Our main goal is to market our algorithm to existing companies in the gaming sector or organizations looking to get involved in the industry.
+To accomplish this task, we will build and evaluate several ML models or algorithms (e.g.,Logistic regression, Neural Network). Once we implement the algorithms, we will evaluate the performance to see how well the models predict the data. Our main goal is to market our algorithm to existing companies in the gaming sector or organizations looking to get involved in the industry.
 
 
 ## Resources
@@ -66,7 +66,7 @@ This project attempts to determine a threshold of desired sales amount for North
 
 We plan to investigate Logistic Regression and Neural Network and assess both for accuracy and computation time. One advantage to Logistic Regression is that we could use it without binning the sales data and encode the categorical variables. The neural network on the other hand would give us better accuracy, but we would need to bin the sales data. 
 
-To aply the model, we will determine a threshold desired sales amount for North America. This would become our target. So we would bin the sales data for the rest of the world, and categorize the NA_Sales data as a greater than threshold or less than threshold. For example, we can pick $500,000 in sales; Our NA_Sales column would become "NA_Sales_greater_than_0.5" (since the data is in $ Millions), and we would get a 0 or 1 for each entry. That way, we reduce it to a binary classification problem.
+To apply the model, we will determine a threshold desired sales amount for North America. This would become our target. So we would bin the sales data for the rest of the world, and categorize the NA_Sales data as a greater than threshold or less than threshold. For example, we can pick $500,000 in sales; Our NA_Sales column would become "NA_Sales_greater_than_0.5" (since the data is in $ Millions), and we would get a 0 or 1 for each entry. That way, we reduce it to a binary classification problem.
 
 ## References
 
