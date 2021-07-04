@@ -1,4 +1,6 @@
-![readme1.PNG](images/readme6.png)
+<p align='center'>
+    <img src=images/readme6.png width="1000" height="600">
+</p>
 
 # Predicting Sales Using Machine Learning
 
