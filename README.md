@@ -20,7 +20,7 @@ To accomplish this task, we will build and evaluate several ML models or algorit
 The technologies planned to be used for this project include the following:
 
 - Python & Pandas library
-- PostgreSQL & pgAdmin
+- PostgreSQL & pgAdmin 
 - mlenv (Numpy, SciPy, Scikit-Learn)
 - Imbalanced-learn Package
 - Tableau
@@ -67,6 +67,8 @@ This project attempts to determine a threshold of desired sales amount for North
 We plan to investigate Logistic Regression and Neural Network and assess both for accuracy and computation time. One advantage to Logistic Regression is that we could use it without binning the sales data and encode the categorical variables. The neural network on the other hand may give us better accuracy, but we would need to bin the sales data. 
 
 To apply the model, we will determine a threshold desired sales amount for North America. This would become our target. So we would bin the sales data for the rest of the world, and categorize the NA_Sales data as a greater than threshold or less than threshold. For example, we can pick $500,000 in sales; Our NA_Sales column would become "NA_Sales_greater_than_0.5" (since the data is in $ Millions), and we would get a 0 or 1 for each entry. That way, we reduce it to a binary classification problem.
+
+Note: Schema image is located in database_game
 
 ## References
 
