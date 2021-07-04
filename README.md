@@ -44,7 +44,7 @@ To prepare for this project, a team of analysts referred to as the "Red Team" cr
 - Maintain open communication and active listening to prevent conflicts 
 
 
-## Reason for topic selection
+## Reason for Topic Selection
 
 Predicting video game sales was considered to be an interesting and fun topic to analyze. Video games have been around for many years and have evolved significantly over time. Game development is also becoming increasingly common in many organizations. It is also a huge market that provides entertainment for children and adults alike. 
 
