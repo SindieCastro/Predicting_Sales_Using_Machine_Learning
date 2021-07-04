@@ -70,7 +70,10 @@ We plan to investigate Logistic Regression and Neural Network and assess both fo
 
 To apply the model, we will determine a threshold desired sales amount for North America. This would become our target. So we would bin the sales data for the rest of the world, and categorize the NA_Sales data as a greater than threshold or less than threshold. For example, we can pick $500,000 in sales; Our NA_Sales column would become "NA_Sales_greater_than_0.5" (since the data is in $ Millions), and we would get a 0 or 1 for each entry. That way, we reduce it to a binary classification problem.
 
-Note: Schema image is located in database_game branch
+#### Note: 
+- **Schema image is located in database_game branch**
+- **Machine Learning code is located in machine_learning_model_game branch**
+
 
 ## References
 
