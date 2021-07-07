@@ -4,7 +4,9 @@
 
 # Predicting Sales Using Machine Learning
 
- 
+# Segment One:
+
+
 ## Overview
 
 Our goal is to predict sales of video games using Machine Learning (ML) based on sales outside of North America, genre, and video game platforms.
@@ -70,7 +72,13 @@ We plan to investigate Logistic Regression and Neural Network and assess both fo
 
 To apply the model, we will determine a threshold desired sales amount for North America. This would become our target. So we would bin the sales data for the rest of the world, and categorize the NA_Sales data as a greater than threshold or less than threshold. For example, we can pick $500,000 in sales; Our NA_Sales column would become "NA_Sales_greater_than_0.5" (since the data is in $ Millions), and we would get a 0 or 1 for each entry. That way, we reduce it to a binary classification problem.
 
+
+## GitHub Repository Management
+
+For better management and organization of the repository, the team agreed to create feature branches of project versus individual branches for team members. As a result, we submit (add) any documents to designated feature branches of the project, and provide detailed description on “commit” message.
+
 #### Note: 
+
 - **Schema image is located in database_game branch**
 - **Machine Learning code is located in machine_learning_model_game branch**
 
@@ -80,3 +88,42 @@ To apply the model, we will determine a threshold desired sales amount for North
 - <https://www.kaggle.com/gregorut/videogamesales?select=vgsales.csv>, accessed 2 July, 2021.
 
 - <https://techcrunch.com/2015/10/31/the-history-of-gaming-an-evolving-community/>, accessed 3 July, 2021.
+
+## End of Segment One
+
+
+
+# Segment Two:
+
+## Overview
+
+The team made great strides in building the different pieces of the project. All members continue to evaluate what is and is not working during progress of the project.
+
+
+## Communication Protocols
+
+The team’s communication protocols will be relatively similar for all segments of the project. The team is aware of the importance of communicating with each other in order to achieve a successful outcome. The members will continue to respect lines communication, address any disagreements early on, and collectively work on assignments distributed according to function and expertise. 
+
+For segment two, the following communication protocols were established:
+
+- Discuss the team’s goals and objectives during the given segment
+- Roles and requirements are clearly defined
+- Set regular communication goals, types, and schedules
+- Increase group meetings via Zoom to clearly define scope, resources, and timeline
+- Continue group messages in Slack 
+- Milestone status is regularly reported to the team
+- Attend office hours to ask questions and ensure the project is on the right track
+- Motivate each other
+- Recognize and praise a member’s great work
+
+
+## Machine Learning Model
+
+During this segment, the team transitioned the mockup ML model to a functioning model. The team strategically selected which columns to drop and keep to run the model. The features to make the prediction and target to predict the outcome remained the same from the mockup model. The string columns were encoded into numerical values, and the numerical values in remaining columns were standardized. 
+
+#### Sales Columns Before Standardization
+![sales_bf_norm.PNG](images/sales_bf_norm.png)
+
+#### Sales Columns After Standardization
+![sales_after_norm.PNG](images/sales_after_norm.png)
+
