@@ -128,6 +128,10 @@ During this segment, the team transitioned the mockup ML model to a functioning 
 ![sales_after_norm.PNG](images/sales_after_norm.png)
 
 ## Project Outline
+Why did you start?
+What did you do?
+What did you find?
+What does it mean?
 
 ## Google Slides
 https://docs.google.com/presentation/d/1wRn_DMTICQlc5AWBJ5g96msv_DWjqQZWoBNYVVqalm4/edit?usp=sharing
