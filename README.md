@@ -130,3 +130,6 @@ During this segment, the team transitioned the mockup ML model to a functioning 
 ## Google Slides
 https://docs.google.com/presentation/d/1wRn_DMTICQlc5AWBJ5g96msv_DWjqQZWoBNYVVqalm4/edit?usp=sharing
 
+## Storyboard
+https://docs.google.com/presentation/d/1xscv3WHg-kAVCQeLhKaqSvw58ImNI4yrhc5Y1BQruPc/edit?usp=sharing
+
