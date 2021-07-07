@@ -127,3 +127,6 @@ During this segment, the team transitioned the mockup ML model to a functioning 
 #### Sales Columns After Standardization
 ![sales_after_norm.PNG](images/sales_after_norm.png)
 
+## Google Slides
+https://docs.google.com/presentation/d/1wRn_DMTICQlc5AWBJ5g96msv_DWjqQZWoBNYVVqalm4/edit?usp=sharing
+
