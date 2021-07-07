@@ -39,7 +39,7 @@ To prepare for this project, a team of analysts referred to as the "Red Team" cr
 - Ask for help when stuck on an individual task
 - Inform the acting leader if the task will be completed late
 - Inform the acting leader when emergency task reassignment will need to take place
-- Praise a team member for a work well done
+- Praise a team member for good work
 - Team leader will update team members of any changes due to emergencies or a team member needing help with a task
 - Maintain open communication and active listening to prevent conflicts 
 
