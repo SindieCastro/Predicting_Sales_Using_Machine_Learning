@@ -140,7 +140,8 @@ During this segment, the team transitioned the mockup ML model to a functioning 
 
 **Why did you start?**
 
-This project was started 
+We started this project to see if it would be profitable to launch certain games in the rest of the world (Other_Sales).
+ 
 **What did you do?**
 
 **What did you find?**
