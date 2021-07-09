@@ -4,7 +4,6 @@
 
 # Predicting Sales Using Machine Learning
 
-
 # Segment One:
 
 
@@ -143,5 +142,6 @@ https://docs.google.com/presentation/d/1wRn_DMTICQlc5AWBJ5g96msv_DWjqQZWoBNYVVqa
 
 ## Storyboard
 https://docs.google.com/presentation/d/1xscv3WHg-kAVCQeLhKaqSvw58ImNI4yrhc5Y1BQruPc/edit?usp=sharing
+
 
 
