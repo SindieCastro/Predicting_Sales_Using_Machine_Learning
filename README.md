@@ -79,8 +79,8 @@ For better management and organization of the repository, the team agreed to cre
 
 #### Note: 
 
-- **Schema image is located in database_game branch**
-- **Machine Learning code is located in machine_learning_model_game branch**
+- **Schema image is located in database_files branch**
+- **Machine Learning code is located in ML-model_files branch**
 
 
 ## References
@@ -121,15 +121,23 @@ For segment two, the following communication protocols were established:
 
 During this segment, the team transitioned the mockup ML model to a functioning model. The team strategically selected which columns to drop and keep to run the model. The features to make the prediction and target to predict the outcome remained the same from the mockup model. The string columns were encoded into numerical values, and the numerical values in remaining columns were standardized. 
 
-#### Sales Columns Before Standardization
+#### Sales Columns Before Standardization (sample=500)
 ![sales_bf_norm.PNG](images/sales_bf_norm.png)
 
-#### Sales Columns After Standardization
+#### Sales Columns After Standardization(sample=500)
 ![sales_after_norm.PNG](images/sales_after_norm.png)
+
+
+## QuickDBD Mockup
+
+![schema_1.PNG](images/schema_1.PNG)
 
 ## Project Outline
 
 **Why did you start?**
+
+The goal is to create an algorithm in which we can add new or unknown data in order to predict video game sales in any given region of the world. After a successful ML model is created, trained, and tested, the team plans to market the model to existing companies in the gaming sector or organizations looking to get involved in the industry.
+
 
 **What did you do?**
 
