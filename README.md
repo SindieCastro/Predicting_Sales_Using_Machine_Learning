@@ -130,7 +130,7 @@ During this segment, the team transitioned the mockup ML model to a functioning 
 
 ## QuickDBD Mockup
 
-![db_schema](https://github.com/SindieCastro/Predicting_Sales_Using_Machine_Learning/blob/main/images/db_schema.PNG)
+![db_schema](https://github.com/SindieCastro/Predicting_Sales_Using_Machine_Learning/blob/main/images/schema_1.PNG)
 
 ## Project Outline
 
