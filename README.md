@@ -132,6 +132,14 @@ During this segment, the team transitioned the mockup ML model to a functioning 
 
 ![db_schema](https://github.com/SindieCastro/Predicting_Sales_Using_Machine_Learning/blob/main/images/schema_1.PNG)
 
+
+### Database layout and Design
+To begin, the database structure was designed around the largest all inclusive data (regions, which includes all games and categories) and scaled down to the smallest segment of data (genres, limited to just generes of games).  Every column from the dataset was either assigned to a broad category (regional sales) or got assigned an individual table (games, genre) based on the relationships to the dataset itself. 
+
+Walking thru the structure we are going to set up a many to one relationship between regions and region sales.  Although we have multiple sales in a region, our data is broken down by regional section (Noth American, Europe, Japan, Other) and will be considered as one value per region.  From here we create a one to many realtionship from regional sales to game platforms.  Every regional sales area will have multiple game platforms associated with it.  This will also cover the possibilities of unique platforms in certain regions.  From game platform we create 2 relationships.  A one to one relationship to platforms (a game platform only has 1 platform).  And a one to many to game publisher. (Every platform can have mulitple publishers) From game publisher we create a one to many realtionship into games. (publishers can have multiple games) And games will be have a one to one relationship with genre. (one genre per game)  
+
+With this layout there will be the oppurtinty to create multiple joins to gather specific information for any related query.  For instance, we could pull every game publisher for the North American region by joining regional sales with game platform, platform, and game publisher using the specific ID's from each table.
+
 ## Project Outline
 
 **Why did you start?**
