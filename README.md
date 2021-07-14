@@ -131,9 +131,17 @@ During this segment, the team transitioned the mockup ML model to a functioning 
 
 **Description of preliminary data preprocessing**
 
+Dropped columns: Name, Year, Publisher, Other_Sales, Global Sales.
+Kept columns: Platform, Genre, NA_Sales, EU_Sales, JP_Sales
+Made sure nulls were dropped.
+Created a histogram to view European Sales distribution.
+
+
 **Description of preliminary feature engineering and preliminary feature selection, including their decision-making process**
 
 **Description of how data was split into training and testing sets** 
+
+Train test split
 
 **Explanation of model choice, including limitations and benefits**
 
