@@ -158,18 +158,6 @@ Walking thru the structure we are going to set up a many to one relationship bet
 
 With this layout there will be the oppurtinty to create multiple joins to gather specific information for any related query.  For instance, we could pull every game publisher for the North American region by joining regional sales with game platform, platform, and game publisher using the specific ID's from each table.
 
-## Project Outline
-
-**Why did you start?**
-
-The goal is to create an algorithm in which we can add new or unknown data in order to predict video game sales in any given region of the world. After a successful ML model is created, trained, and tested, the team plans to market the model to existing companies in the gaming sector or organizations looking to get involved in the industry.
-
-
-**What did you do?**
-
-**What did you find?**
-
-**What does it mean?**
 
 ## Google Slides
 https://docs.google.com/presentation/d/1wRn_DMTICQlc5AWBJ5g96msv_DWjqQZWoBNYVVqalm4/edit?usp=sharing
