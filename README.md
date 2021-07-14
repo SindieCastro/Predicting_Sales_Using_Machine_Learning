@@ -64,7 +64,9 @@ The CSV dataset has 16,599 rows and 11 columns. The dataset contains the followi
 
 ## Project Question
 
-This project attempts to determine a threshold of desired sales amount for North America based on sales from other countries, genre, and platform.
+We have launched a game (genre/platform) in North America (NA) and  Japan (JP). We have sales data for those regions, and management is considering launching the game in Europe. Our product launch team has an anticipated cost for the European launch, and we need to know if it would be profitable to launch in Europe.
+
+Will sales in Europe be greater than the cost to launch the game in Europe (plus margin?)?   → sales in Europe (plus margin) becomes our threshold value in our ML model.
 
 ## Machine Learning Model
 
