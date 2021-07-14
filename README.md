@@ -132,13 +132,13 @@ The data was initially explored to determine which columns to keep as features a
 The columns Name and Publisher were dropped due to a large number of unique values which would not be terribly useful for the ML model. The Global_Sales column was dropped because it is a sum of the regional sales numbers. The team debated whether or not to keep Other_Sales, but ultimately, the Other_Sales column was dropped. The Other_Sales column represented all sales outside of NA, EU, and JP, and the team felt that in a real-world application, this data would likely not be available prior to launching a video game in a major market. The data that was kept for analysis was reviewed for null values. Fortunately, no null values were remained, so the team proceeded with the analysis.
 
 **Description of preliminary feature engineering and preliminary feature selection, including their decision-making process**
-The team strategically selected which columns to drop and keep to properly train the ML model. The features to make the prediction and target to predict the outcome remained the same from the mockup model. The string columns were encoded into numerical values. Scaling was explored with the sales data, but it was found that scaling did not improve the accuracy of the ML model. The team believes this could be due to the heavily skewed distrubtion of the sales data, and further investigation is required.
+The team strategically selected which columns to drop and keep to properly train the ML model. The features to make the prediction and target to predict the outcome remained the same from the mockup model. The string columns were encoded into numerical values. Scaling was explored with the sales data, but it was found that scaling did not improve the accuracy of the ML model. The team believes this could be due to the heavily skewed distrubtion of the sales data as indicated by the EU_Sales histogram below. Further investigation is required.
 
 #### Sales Data Columns
 ![sales_bf_norm.PNG](images/sales_bf_norm.png)
 
 ### Histogram of EU_Sales
-INSERT FIGURE 
+![EU_Sales_histogram.PNG](images/EU_Sales_histogram.png)
 
 **Description of how data was split into training and testing sets** 
 The data was split into the training and testing sets using the *train_test_split* 
