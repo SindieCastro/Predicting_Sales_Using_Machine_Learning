@@ -162,7 +162,7 @@ To begin, the database structure was designed around the largest all inclusive d
 
 The structure is going to be set up as many to one relationship between regions and region sales.  Although there are multiple sales in a region, the data is broken down by regional section (North American, Europe, Japan, Other) and will be considered as one value per region. Next, a one to many relationship from regional sales to game platforms is created. Every regional sales area will have multiple game platforms associated with it. This will also cover the possibilities of unique platforms in certain regions.  
 
-From game platform two relationships are created – A one to one relationship to platforms (a game platform only has 1 platform), and a one to many to game publisher. Every platform can have multiple publishers. From game publisher, a one to many relationship is created into games (publishers can have multiple games). Finally, games will be have a one to one relationship with genre (one genre per game).  
+From game platform two relationships are created – a one to one relationship to platforms (a game platform only has 1 platform), and a one to many to game publisher. Every platform can have multiple publishers. From game publisher, a one to many relationship is created into games (publishers can have multiple games). Finally, games will be have a one to one relationship with genre (one genre per game).  
 
 With this layout there will be an opportunity to create multiple joins to gather specific information for any related query.  For instance, we could pull every game publisher for the North American region by joining regional sales with game platform, platform, and game publisher using the specific ID's from each table.
 
