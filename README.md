@@ -92,7 +92,7 @@ For better management and organization of the repository, the team agreed to cre
 
 - <https://techcrunch.com/2015/10/31/the-history-of-gaming-an-evolving-community/>, accessed 3 July, 2021.
 
-## End of Segment One
+# End of Segment One
 
 
 
