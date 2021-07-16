@@ -4,9 +4,6 @@
 
 # Predicting Sales Using Machine Learning
 
-# Segment One:
-
-
 ## Overview
 
 A team of technology consultants referred to as the "Red Team" has been tasked for this project. The goal of the project is to predict sales of video games using Machine Learning (ML) based on sales in North America and Japan. The team will analyze the potential profits for video game launch in the European region.
