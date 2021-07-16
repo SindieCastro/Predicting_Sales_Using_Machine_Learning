@@ -6,26 +6,31 @@
 
 ## Overview
 
-A team of technology consultants referred to as the "Red Team" has been tasked for this project. The goal of the project is to predict sales of video games using Machine Learning (ML) based on sales in North America and Japan. The team will analyze the potential profits for video game launch in the European region.
+The video games industry continues to grow at a rapid pace, and shows no signs of slowing down in the years to come. As a result, many companies want to be part of the growing revenue stream. 
+
+A team of data analytics consultants, referred to as the "Red Team," has been tasked to transform data into information that provides profit-maximizing business insight for video game sales. To accomplish this task, the team will build and evaluate several ML models or algorithms (e.g.,Logistic regression, Neural Network). Using ML will enable the team to leverage existing algorithms to learn from the data and lead to more accurate predictions.
 
 
 ## Purpose
 
-The gaming industry is immensely large and it is continuing to grow. As such, many companies want to be part of the growing revenue stream. The Red Team will build a predictive ML model to find patterns in existing and new sales data. Using ML will enable the team to leverage existing algorithms to learn from the data and lead to more accurate predictions.
+For this project, the team will analyze the potential profits for a video game launch in the European region. The team will build a predictive ML model to find patterns in existing and new sales data. Once the model is created, its performance will be evaluated to see how well it predicts the data. 
 
-To accomplish this task, the team will build and evaluate several ML models or algorithms (e.g.,Logistic regression, Neural Network). Once the model is created, its performance will be evaluated to see how well it predicts the data. The ultimate goal is to market the algorithm to existing companies in the gaming sector or organizations looking to get involved in the industry.
+In addition, the team will attempt to market the algorithm to existing companies in the gaming sector or organizations looking to get involved in the industry.
 
 
 ## Resources
 
-The technologies planned to be used for this project include the following:
+- <img src="https://github.com/get-icon/geticon/raw/master/icons/visual-studio-code.svg" alt="VScode" width="20px" height="20px"> VS Code
 
-- Python & Pandas library
-- PostgreSQL & pgAdmin 
-- mlenv (Numpy, SciPy, Scikit-Learn)
-- <s>Imbalanced-learn Package</s>
-- Tableau
-- JavaScript
+- <img src="https://github.com/get-icon/geticon/raw/master/icons/python.svg" alt="Python" width="20px" height="20px"> Python Libraries
+
+- <img src="https://github.com/get-icon/geticon/raw/master/icons/postgresql.svg" alt="PostgreSQL" width="20px" height="20px"> PostgreSQL & pgAdmin
+- <img src="https://maxgentechnologies.com/images/intern/python_machine_logo.jpg" width="px" height="20px"> Machine Learning 
+
+- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLPEwocsaSWuRA1_rvsYXMsXCMzgSWVB956N1CKMQ&usqp=CAU" alt="Tableau" width="20px" height="20px"> Tableau Public  
+
+- <img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="20px" height="20px"> JavaScript
+- <img src="https://brand.heroku.com/static/media/heroku-logotype-spacing-vertical.dc54b577.svg" alt="Heroku" width="20px" height="20px"> Heroku
 
 
 ## Communication Protocol
@@ -63,7 +68,9 @@ A CSV dataset, named vgsales.csv, will be used for the analysis. The dataset con
 
 ## Project Question
 
-**Will sales in Europe be greater than the target revenue?**
+`**Will sales in Europe be greater than the target revenue?**`
+
+<span style="color:red">Will sales in Europe be greater than the target revenue?</span>
 
 
 ## Machine Learning Model
@@ -73,7 +80,7 @@ A CSV dataset, named vgsales.csv, will be used for the analysis. The dataset con
 The data was initially explored to determine which columns to keep as features and which columns to drop. The following are the columns dropped and retained for analysis.
 
 - Dropped columns: Name, Year, Publisher, Other_Sales, Global Sales.
-- Kept columns: Platform, Genre, NA_Sales, EU_Sales, JP_Sales
+- Retained columns: Platform, Genre, NA_Sales, EU_Sales, JP_Sales
 
 The columns Name and Publisher were dropped due to a large number of unique values and not very useful for the ML model. The Global_Sales column was dropped because it is a sum of the regional sales numbers. The team debated whether or not to keep Other_Sales column, but ultimately it was dropped. The Other_Sales column represented all sales outside of NA, EU, and JP, and the team felt that in a real-world application, this data would likely not be available prior to launching a video game in a major market. The data that was kept for analysis was reviewed for null values. Fortunately, no null values were found, so the team proceeded with the analysis.
 
@@ -91,9 +98,9 @@ The team strategically selected which columns to drop and keep to properly train
 
 The data was split into the training and testing sets using the *train_test_split*
 
-#### Explanation of model choice, including limitations and benefits
+#### Model choice, including limitations and benefits
 
-After lengthy consideration, the team elected to go with a Logistic Regression model for this data. The Logistic Regression model was chosen because the question the team is trying to answer reduces the problem of EU_Sales to a binary classification problem for which Logistic Regression is well-suited. The Logistic Regression model is advantageous in this case because it is easy to implement and easy to understand. Furthermore, the data includes a limited number of features prior to categorical variable encoding, and the team was concerned that a complex model (e.g. Neural Network) might overfit the data as a result. 
+After lengthy consideration, the team elected to go with a Logistic Regression model for this data. The Logistic Regression model was chosen because the question the team is trying to answer reduces the `problem` of EU_Sales to a binary classification problem for which Logistic Regression is well-suited. The Logistic Regression model is advantageous in this case because it is easy to implement and easy to understand. Furthermore, the data includes a limited number of features prior to categorical variable encoding, and the team was concerned that a complex model (e.g. Neural Network) might overfit the data as a result. 
 
 One potential drawback to Logistic Regression model is related to the size of the data and the convergence of the model. Several optimizers were explored with the Logistic Regression model, and it was found that some optimizers required a significant number of iterations for the model to converge. Hyperparameter tuning was also investigated in an attempt to improve the model performance, but the team observed that there was not much to be gained in terms of model accuracy via hyperparameter tuning.
 
@@ -120,6 +127,8 @@ https://docs.google.com/presentation/d/1wRn_DMTICQlc5AWBJ5g96msv_DWjqQZWoBNYVVqa
 ## Storyboard
 https://docs.google.com/presentation/d/1xscv3WHg-kAVCQeLhKaqSvw58ImNI4yrhc5Y1BQruPc/edit?usp=sharing
 
+## Preliminary Tableau
+https://public.tableau.com/app/profile/jacqueline.esbri/viz/FinalProjectTeamRed/Sheet6?publish=yes
 
 
 ## References
