@@ -87,7 +87,7 @@ The columns Name and Publisher were dropped due to a large number of unique valu
 The team strategically selected which columns to drop and keep to properly train the ML model. The features to make the prediction and target to predict the outcome changed from the original mockup model. The string columns were encoded into numerical values. Scaling was explored with the sales data, but it was found that scaling did not improve the accuracy of the ML model. The team believes this could be due to the heavily skewed distribution of the sales data as indicated by the EU_Sales histogram below. Further investigation is required.
 
 #### Sales Data Columns
-![sales_bf_norm.PNG](images/sales_bf_norm.png)
+![sales_data](images/sales_data.png)
 
 #### Histogram of EU_Sales
 ![EU_Sales_histogram.PNG](images/EU_Sales_histogram.png)
