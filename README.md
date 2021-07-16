@@ -20,17 +20,17 @@ In addition, the team will attempt to market the algorithm to existing companies
 
 ## Resources
 
-- <img src="https://github.com/get-icon/geticon/raw/master/icons/visual-studio-code.svg" alt="VScode" width="20px" height="20px"> VS Code
+- <img src="https://github.com/get-icon/geticon/raw/master/icons/visual-studio-code.svg" alt="VScode" width="20px" height="25px"> VS Code
 
-- <img src="https://github.com/get-icon/geticon/raw/master/icons/python.svg" alt="Python" width="20px" height="20px"> Python Libraries
+- <img src="https://github.com/get-icon/geticon/raw/master/icons/python.svg" alt="Python" width="25px" height="20px"> Python Libraries
 
-- <img src="https://github.com/get-icon/geticon/raw/master/icons/postgresql.svg" alt="PostgreSQL" width="20px" height="20px"> PostgreSQL & pgAdmin
-- <img src="https://maxgentechnologies.com/images/intern/python_machine_logo.jpg" width="px" height="20px"> Machine Learning 
+- <img src="https://github.com/get-icon/geticon/raw/master/icons/postgresql.svg" alt="PostgreSQL" width="25px" height="25px"> PostgreSQL & pgAdmin
+- <img src="https://maxgentechnologies.com/images/intern/python_machine_logo.jpg" width="px" height="25px"> Machine Learning 
 
-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLPEwocsaSWuRA1_rvsYXMsXCMzgSWVB956N1CKMQ&usqp=CAU" alt="Tableau" width="20px" height="20px"> Tableau Public  
+- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLPEwocsaSWuRA1_rvsYXMsXCMzgSWVB956N1CKMQ&usqp=CAU" alt="Tableau" width="25px" height="20px"> Tableau Public  
 
-- <img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="20px" height="20px"> JavaScript
-- <img src="https://brand.heroku.com/static/media/heroku-logotype-spacing-vertical.dc54b577.svg" alt="Heroku" width="20px" height="20px"> Heroku
+- <img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="25px" height="20px"> JavaScript
+- <img src="https://brand.heroku.com/static/media/heroku-logotype-spacing-vertical.dc54b577.svg" alt="Heroku" width="30px" height="30px"> Heroku
 
 
 ## Communication Protocol
