@@ -68,9 +68,7 @@ A CSV dataset, named vgsales.csv, will be used for the analysis. The dataset con
 
 ## Project Question
 
-`**Will sales in Europe be greater than the target revenue?**`
-
-<span style="color:red">Will sales in Europe be greater than the target revenue?</span>
+**Will sales in Europe be greater than the target revenue?**
 
 
 ## Machine Learning Model
