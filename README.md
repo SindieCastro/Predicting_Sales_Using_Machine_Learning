@@ -110,19 +110,14 @@ One potential drawback to Logistic Regression model is related to the size of th
 
 ## QuickDBD Mockup
 
-![db_schema](https://github.com/SindieCastro/Predicting_Sales_Using_Machine_Learning/blob/main/images/schema_1.PNG)
+![ERD](https://github.com/SindieCastro/Predicting_Sales_Using_Machine_Learning/blob/main/images/schema_1.PNG)
 
 
 ### Database layout and Design
 
-To begin, the database structure was designed around the largest all inclusive data (regions, which includes all games and categories) and scaled down to the smallest segment of data (genres). Every column from the dataset was either assigned to a broad category (regional sales) or got assigned an individual table (games, genre) based on the relationships to the dataset itself. 
+The team has decided to utilize Heroku for the online database.  After cleaning the data and considering the consrtaints from heroku regarding row limits; the data was divided into three categories: games, platforms and genres.  Once these categories were established 3 csv files were genereted to populate the table data in pgadmin and uploaded into the Heroku databse.    
 
-The structure is going to be set up as many to one relationship between regions and region sales.  Although there are multiple sales in a region, the data is broken down by regional section (North American, Europe, Japan, Other) and will be considered as one value per region. Next, a one to many relationship from regional sales to game platforms is created. Every regional sales area will have multiple game platforms associated with it. This will also cover the possibilities of unique platforms in certain regions.  
-
-From game platform two relationships are created – a one to one relationship to platforms (a game platform only has 1 platform), and a one to many to game publisher. Every platform can have multiple publishers. From game publisher, a one to many relationship is created into games (publishers can have multiple games). Finally, games will be have a one to one relationship with genre (one genre per game).
-
-With this layout there will be an opportunity to create multiple joins to gather specific information for any related query.  For instance, we could pull every game publisher for the North American region by joining regional sales with game platform, platform, and game publisher using the specific ID's from each table.
-
+After the data was loaded into Heroku, a connection was established. Using SQL to query the online database we were then able to reconstruct the data needed for our machine learning and pass it into the logistic regression model for processing.
 
 ## Google Slides
 https://docs.google.com/presentation/d/1wRn_DMTICQlc5AWBJ5g96msv_DWjqQZWoBNYVVqalm4/edit?usp=sharing
