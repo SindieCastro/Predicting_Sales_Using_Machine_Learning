@@ -25,6 +25,7 @@ In addition, the team will attempt to market the algorithm to existing companies
 - <img src="https://github.com/get-icon/geticon/raw/master/icons/python.svg" alt="Python" width="25px" height="20px"> Python Libraries
 
 - <img src="https://github.com/get-icon/geticon/raw/master/icons/postgresql.svg" alt="PostgreSQL" width="25px" height="25px"> PostgreSQL & pgAdmin
+
 - <img src="https://maxgentechnologies.com/images/intern/python_machine_logo.jpg" width="px" height="25px"> Machine Learning 
 
 - <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLPEwocsaSWuRA1_rvsYXMsXCMzgSWVB956N1CKMQ&usqp=CAU" alt="Tableau" width="25px" height="20px"> Tableau Public  
@@ -115,9 +116,9 @@ One potential drawback to Logistic Regression model is related to the size of th
 
 ### Database layout and Design
 
-The team has decided to utilize Heroku for the online database.  After cleaning the data and considering the consrtaints from heroku regarding row limits; the data was divided into three categories: games, platforms and genres.  Once these categories were established 3 csv files were genereted to populate the table data in pgadmin and uploaded into the Heroku databse.    
+The team has decided to utilize Heroku for the online database. After cleaning the data and considering the constraints from Heroku regarding row limits, the data was divided into three categories: games, platforms, and genres. Once these categories were established, three CSV files were generated to populate the table data in pgAdmin and uploaded into the Heroku database.    
 
-After the data was loaded into Heroku, a connection was established. Using SQL to query the online database we were then able to reconstruct the data needed for our machine learning and pass it into the logistic regression model for processing.
+After the data was loaded into Heroku, a connection was established. Using PostgreSQL to query the online database, we were then able to reconstruct the data needed for our machine learning and pass it into the logistic regression model for processing.
 
 ## Google Slides
 https://docs.google.com/presentation/d/1wRn_DMTICQlc5AWBJ5g96msv_DWjqQZWoBNYVVqalm4/edit?usp=sharing
