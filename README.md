@@ -131,8 +131,7 @@ https://docs.google.com/presentation/d/1wRn_DMTICQlc5AWBJ5g96msv_DWjqQZWoBNYVVqa
 https://docs.google.com/presentation/d/1xscv3WHg-kAVCQeLhKaqSvw58ImNI4yrhc5Y1BQruPc/edit?usp=sharing
 
 ## Preliminary Tableau
-https://public.tableau.com/app/profile/jacqueline.esbri/viz/FinalProjectTeamRed/Sheet6?publish=yes
-
+https://public.tableau.com/app/profile/jacqueline.esbri/viz/FinalProjectTeamRed/DashboardVideoGamesSales
 
 ## References
 
