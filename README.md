@@ -117,15 +117,15 @@ ERD:
 
 ### Database layout and Design
 
-The team has decided to utilize Heroku for the online database. After cleaning the data and considering the constraints from Heroku regarding row limits, the data was divided into three categories: games, platforms, and genres. Once these categories were established, three CSV files were generated (usng vg_db_csv_creator.ipynb) to populate the table data in pgAdmin and uploaded into the Heroku database.    
+The team has decided to utilize Heroku for the online database. After cleaning the data and considering the constraints from Heroku regarding row limits, the data was divided into three categories: games, platforms, and genres. Once these categories were established, three CSV files were generated (using vg_db_csv_creator.ipynb) to populate the table data in pgAdmin and uploaded into the Heroku database.    
 
 CSV Data Imported into pgAdmin:
 ![game_table](https://github.com/SindieCastro/Predicting_Sales_Using_Machine_Learning/blob/main/images/Game_table_verification.PNG)
 
-Data Uplaoded into Heroku:
+Data Uploaded into Heroku:
 ![Heroku_1](https://github.com/SindieCastro/Predicting_Sales_Using_Machine_Learning/blob/main/images/heroku_db_verification.PNG)
 
-After the data was loaded into Heroku, a connection was established using heroku_db_connection.ipynb. Using SQL to query the online database, we were then able to perfomr two LEFT JOINS and reconstruct the data needed for our machine learning and pass it into the logistic regression model for processing.
+After the data was loaded into Heroku, a connection was established using heroku_db_connection.ipynb. Using SQL to query the online database, the team was able to perform two LEFT JOINS and reconstruct the data needed for the machine learning and pass it into the logistic regression model for processing.
 
 ## Google Slides
 https://docs.google.com/presentation/d/1wRn_DMTICQlc5AWBJ5g96msv_DWjqQZWoBNYVVqalm4/edit?usp=sharing
