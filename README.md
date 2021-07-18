@@ -96,6 +96,7 @@ The team strategically selected which columns to drop and keep to properly train
 #### Total Regional Sales
 ![sales_all_locations2.PNG](images/sales_all_locations2.png)
 
+
 #### Description of how data was split into training and testing sets
 
 The data was split into the training and testing sets using the *train_test_split*
@@ -131,7 +132,6 @@ https://docs.google.com/presentation/d/1xscv3WHg-kAVCQeLhKaqSvw58ImNI4yrhc5Y1BQr
 
 ## Preliminary Tableau
 https://public.tableau.com/app/profile/jacqueline.esbri/viz/FinalProjectTeamRed/DashboardVideoGamesSales
-
 
 ## References
 
