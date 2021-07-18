@@ -30,6 +30,7 @@ In addition, the team will attempt to market the algorithm to existing companies
 - <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLPEwocsaSWuRA1_rvsYXMsXCMzgSWVB956N1CKMQ&usqp=CAU" alt="Tableau" width="25px" height="20px"> Tableau Public  
 
 - <img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" width="25px" height="20px"> JavaScript
+
 - <img src="https://brand.heroku.com/static/media/heroku-logotype-spacing-vertical.dc54b577.svg" alt="Heroku" width="30px" height="30px"> Heroku
 
 
@@ -86,11 +87,15 @@ The columns Name and Publisher were dropped due to a large number of unique valu
 
 The team strategically selected which columns to drop and keep to properly train the ML model. The features to make the prediction and target to predict the outcome changed from the original mockup model. The string columns were encoded into numerical values. Scaling was explored with the sales data, but it was found that scaling did not improve the accuracy of the ML model. The team believes this could be due to the heavily skewed distribution of the sales data as indicated by the EU_Sales histogram below. Further investigation is required.
 
-#### Sales Data Columns
-![sales_data](images/sales_data.png)
-
 #### Histogram of EU_Sales
 ![EU_Sales_histogram.PNG](images/EU_Sales_histogram.png)
+
+#### Sales Data Columns
+![sales_data.PNG](images/sales_data.png)
+
+#### Total Regional Sales
+![sales_all_locations2.PNG](images/sales_all_locations2.png)
+
 
 #### Description of how data was split into training and testing sets
 
@@ -110,7 +115,7 @@ One potential drawback to Logistic Regression model is related to the size of th
 
 ### Database layout and Design
 
-To begin, the database structure was designed around the largest all inclusive data (regions, which includes all games and categories) and scaled down to the smallest segment of data (genres, limited to just generes of games). Every column from the dataset was either assigned to a broad category (regional sales) or got assigned an individual table (games, genre) based on the relationships to the dataset itself. 
+To begin, the database structure was designed around the largest all inclusive data (regions, which includes all games and categories) and scaled down to the smallest segment of data (genres). Every column from the dataset was either assigned to a broad category (regional sales) or got assigned an individual table (games, genre) based on the relationships to the dataset itself. 
 
 The structure is going to be set up as many to one relationship between regions and region sales.  Although there are multiple sales in a region, the data is broken down by regional section (North American, Europe, Japan, Other) and will be considered as one value per region. Next, a one to many relationship from regional sales to game platforms is created. Every regional sales area will have multiple game platforms associated with it. This will also cover the possibilities of unique platforms in certain regions.  
 
@@ -135,3 +140,16 @@ https://public.tableau.com/app/profile/jacqueline.esbri/viz/FinalProjectTeamRed/
 
 - <https://techcrunch.com/2015/10/31/the-history-of-gaming-an-evolving-community/>, accessed 3 July, 2021.
 
+- <https://github.com/get-icon/geticon/raw/master/icons/visual-studio-code.svg>, accessed 15 July, 2021.
+
+- <https://github.com/get-icon/geticon/raw/master/icons/python.svg>, accessed 15 July, 2021.
+
+- <https://github.com/get-icon/geticon/raw/master/icons/postgresql.svg>, accessed 15 July, 2021.
+
+- <https://maxgentechnologies.com/images/intern/python_machine_logo.jpg>, accessed 15 July, 2021.
+
+- <https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLPEwocsaSWuRA1_rvsYXMsXCMzgSWVB956N1CKMQ&usqp=CAU>, accessed 15 July, 2021.
+
+- <https://github.com/get-icon/geticon/raw/master/icons/javascript.svg>, accessed 15 July, 2021.
+
+- <https://brand.heroku.com/static/media/heroku-logotype-spacing-vertical.dc54b577.svg>, accessed 15 July, 2021.
