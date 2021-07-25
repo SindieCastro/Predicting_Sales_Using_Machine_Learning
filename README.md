@@ -116,6 +116,11 @@ Data Uploaded into Heroku:
 
 After the data was loaded into Heroku, a connection was established using heroku_db_connection.ipynb. Using SQL to query the online database, the team was able to perform two LEFT JOINS and reconstruct the data needed for the machine learning and pass it into the logistic regression model for processing.
 
+## Dashboard
+
+![Dashboard image](https://user-images.githubusercontent.com/78306719/126910401-3af718d8-c2bc-485e-b280-0b30595c9522.PNG)
+
+
 ## Google Slides
 https://docs.google.com/presentation/d/1wRn_DMTICQlc5AWBJ5g96msv_DWjqQZWoBNYVVqalm4/edit?usp=sharing
 
