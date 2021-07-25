@@ -81,7 +81,7 @@ The team strategically selected which columns to drop and keep to properly train
 
 The target data was segregated from the feature data, and these two datasets were split into the training and testing sets using the *train_test_split* method built into scikit-learn as shown below.
 
-![train_test_split](images/ML_train_test_split.PNG)
+![ML_train_test_split](https://user-images.githubusercontent.com/78306719/126913097-4d984f11-a17c-42e2-80f1-ee68b1e9de73.png)
 
 The *stratify* parameter was set to *y* to maintain the same proportion of 0 and 1 values between the training and test sets. Notice the class imbalance between *0* instances and *1* instances in our training data. This was handled with random oversampling as described below.
 
