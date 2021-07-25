@@ -75,7 +75,7 @@ A CSV dataset, named vgsales.csv, will be used for the analysis. The dataset con
 
 ## Machine Learning Model
 
-#### Description of preliminary data preprocessing
+#### Description of data preprocessing
 
 The data was initially explored to determine which columns to keep as features and which columns to drop. The following are the columns dropped and retained for analysis.
 
@@ -84,7 +84,7 @@ The data was initially explored to determine which columns to keep as features a
 
 The columns Name and Publisher were dropped due to a large number of unique values and not very useful for the ML model. The Global_Sales column was dropped because it is a sum of the regional sales numbers. The team debated whether or not to keep Other_Sales column, but ultimately it was dropped. The Other_Sales column represented all sales outside of NA, EU, and JP, and the team felt that in a real-world application, this data would likely not be available prior to launching a video game in a major market. The data that was kept for analysis was reviewed for null values. Fortunately, no null values were found, so the team proceeded with the analysis.
 
-#### Description of preliminary feature engineering and preliminary feature selection, including their decision-making process
+#### Description of feature engineering and feature selection, including their decision-making process
 
 The team strategically selected which columns to drop and keep to properly train the ML model. The features to make the prediction and target to predict the outcome changed from the original mockup model. The string columns were encoded into numerical values. Scaling was explored with the sales data, but it was found that scaling did not improve the accuracy of the ML model. The team believes this could be due to the heavily skewed distribution of the sales data as indicated by the EU_Sales histogram below. Further investigation is required.
 
@@ -107,6 +107,16 @@ The data was split into the training and testing sets using the *train_test_spli
 After lengthy consideration, the team elected to go with a Logistic Regression model for this data. The Logistic Regression model was chosen because the question the team is trying to answer is a binary classification problem for which Logistic Regression is well-suited. The Logistic Regression model is advantageous in this case because it is easy to implement and easy to understand. Furthermore, the data includes a limited number of features prior to categorical variable encoding, and the team was concerned that a complex model might overfit the data as a result. 
 
 One potential drawback to Logistic Regression model is related to the size of the data and the convergence of the model. Several optimizers were explored with the Logistic Regression model, and it was found that some optimizers required a significant number of iterations for the model to converge. Hyperparameter tuning was also investigated in an attempt to improve the model performance, but the team observed that there was not much to be gained in terms of model accuracy via hyperparameter tuning.
+
+
+#### Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables) 
+
+#### Description of how they have trained the model thus far, and any additional training that will take place 
+
+#### Description of current accuracy score
+
+#### How the model addresses the question
+
 
 
 ## QuickDBD Mockup
