@@ -117,19 +117,19 @@ To investigate the model performance, the histograms below show the probability 
 
 #### *0* Predictions Probability Histogram
 
-![0_prob_hist](images/LR_0_probability_hist.PNG)
+![LR0](https://github.com/SindieCastro/Predicting_Sales_Using_Machine_Learning/blob/main/images/LR_0_probability_hist.png)
 
 For *0* predictions, the probability histogram shows that most probabilities were above 0.75 to predict a 0.
 
 #### *1* Predictions Probability Histogram
 
-![1_prob_hist](images/LR_1_probability_hist.PNG)
+![LR1](https://github.com/SindieCastro/Predicting_Sales_Using_Machine_Learning/blob/main/images/LR_1_probability_hist.png)
 
 For *1* predictions, the probability histogram shows a fairly even distribution of probabilities until the probability approaches 1 where a significant number of probabilities were at or near 1. This indicates that the model was very confident in its ability to predict *1* values, but the strong concentration of very high probabilities invites further investigation.
 
 To gain further insight into the model performance, the image below shows the *0*/*1* predictions along with a line plot showing the corresponding probabilities. Note that this data supports the histograms above for the *0* and *1* predictions where the *0* portion of the probability curve shows a relatively flat slope from near 0 to roughly 0.25, and the *1* portion of the probability curve shows a rapid slope from 0.5 to nearly 1 where the curve flattens out.
 
-![predictions_and_probs](images/LR_predictions_and_regression.PNG)
+![LRPred](https://github.com/SindieCastro/Predicting_Sales_Using_Machine_Learning/blob/main/images/LR_predictions_and_regression.png)
 
 ## QuickDBD Mockup
 
