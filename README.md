@@ -107,7 +107,7 @@ The image above also shows the training method used for the logistic regression 
 
 The current accuracy score is approximately 88% as shown in the figure below. The precision for 0 and 1 instances are 0.93 and 0.74, respectively, and the recall for 0 and 1 instances 0.91 and 0.78, respectively.
 
-![classification_report](images/ML_classification_report.PNG)
+![report](https://github.com/SindieCastro/Predicting_Sales_Using_Machine_Learning/blob/main/images/ML_classification_report.png)
 
 #### How the model addresses the question
 
