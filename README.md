@@ -79,7 +79,11 @@ The team strategically selected which columns to drop and keep to properly train
 
 #### Description of how data was split into training and testing sets
 
-The data was split into the training and testing sets using the *train_test_split*
+The target data was segregated from the feature data, and these two datasets were split into the training and testing sets using the *train_test_split* method built into scikit-learn as shown below.
+
+![train_test_split](https://github.com/SindieCastro/Predicting_Sales_Using_Machine_Learning/blob/main/images/ML_train_test_split.PNG)
+
+The *stratify* parameter was set to *y* to maintain the same proportion of 0 and 1 values between the training and test sets. Notice the class imbalance between *0* instances and *1* instances in our training data. This was handled with random oversampling as described below.
 
 #### Model choice, including limitations and benefits
 
@@ -89,11 +93,43 @@ One potential drawback to Logistic Regression model is related to the size of th
 
 #### Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables) 
 
-#### Description of how they have trained the model thus far, and any additional training that will take place 
+There was no change in model choice between the Segment 2 and Segment 3 deliverables.
+
+#### Description of how they have trained the model thus far, and any additional training that will take place
+
+As mentioned previously, the training data in its raw form contained a fairly large class imbalance between *0* instances and *1* instances. In order to mitigate the class imbalance and optimize the model performance, random oversampling was used to balance the values in the *0* class and the *1* class as shown in the image below.
+
+![oversample_and_train](https://github.com/SindieCastro/Predicting_Sales_Using_Machine_Learning/blob/main/images/ML_oversampling.PNG)
+
+The image above also shows the training method used for the logistic regression model. The model was trained on the resampled training data using the *lbfgs* solver with a maximum of 200 iterations.
 
 #### Description of current accuracy score
 
+The current accuracy score is approximately 88% as shown in the figure below. The precision for 0 and 1 instances are 0.93 and 0.74, respectively, and the recall for 0 and 1 instances 0.91 and 0.78, respectively.
+
+![classification_report](https://github.com/SindieCastro/Predicting_Sales_Using_Machine_Learning/blob/main/images/ML_classification_report.PNG)
+
 #### How the model addresses the question
+
+This model addresses our question of whether or not sales in Europe will meet threshold sales by predicting a *1* or a *0* where a *1* indicates that European sales is expected to exceed the threshold, and a *0* indicates that European sales is not expected to exceed the threshold.
+
+To investigate the model performance, the histograms below show the probability scores for *0* predictions and *1* predictions.
+
+#### *0* Predictions Probability Histogram
+
+![0_prob_hist](https://github.com/SindieCastro/Predicting_Sales_Using_Machine_Learning/blob/main/images/LR_0_probability_hist.PNG)
+
+For *0* predictions, the probability histogram shows that most probabilities were above 0.75 to predict a 0.
+
+#### *1* Predictions Probability Histogram
+
+![1_prob_hist](https://github.com/SindieCastro/Predicting_Sales_Using_Machine_Learning/blob/main/images/LR_1_probability_hist.PNG)
+
+For *1* predictions, the probability histogram shows a fairly even distribution of probabilities until the probability approaches 1 where a significant number of probabilities were at or near 1. This indicates that the model was very confident in its ability to predict *1* values, but the strong concentration of very high probabilities invites further investigation.
+
+To gain further insight into the model performance, the image below shows the *0*/*1* predictions along with a line plot showing the corresponding probabilities. Note that this data supports the histograms above for the *0* and *1* predictions where the *0* portion of the probability curve shows a relatively flat slope from near 0 to roughly 0.25, and the *1* portion of the probability curve shows a rapid slope from 0.5 to nearly 1 where the curve flattens out.
+
+![predictions_and_probs](https://github.com/SindieCastro/Predicting_Sales_Using_Machine_Learning/blob/main/images/LR_predictions_and_regression.PNG)
 
 ## QuickDBD Mockup
 
