@@ -149,6 +149,7 @@ https://docs.google.com/presentation/d/1xscv3WHg-kAVCQeLhKaqSvw58ImNI4yrhc5Y1BQr
 ## Tableau Workbook
 https://public.tableau.com/app/profile/jacqueline.esbri/viz/FinalProjectTeamRedPresentation_16270732094330/TitlePage?publish=yes
 
+
 ## References
 
 - <https://www.kaggle.com/gregorut/videogamesales?select=vgsales.csv>, accessed 2 July, 2021.
