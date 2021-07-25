@@ -150,7 +150,7 @@ Data Uploaded into Heroku:
 
 ![Heroku_1](https://github.com/SindieCastro/Predicting_Sales_Using_Machine_Learning/blob/main/images/heroku_db_verification.PNG)
 
-After the data was loaded into Heroku, a connection was established using heroku_db_connection.ipynb. Using SQL to query the online database, the team was able to perform two LEFT JOINS and reconstruct the data needed for the machine learning and pass it into the logistic regression model for processing.
+After the data was loaded into Heroku, a connection was established using heroku_db_connection.ipynb. Using SQL to query the online database, the team was able to perform two INNER JOINS and reconstruct the data needed for the machine learning and pass it into the logistic regression model for processing (DB_VG_LR_resample_Final.ipynb).
 
 ## Dashboard
 
