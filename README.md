@@ -10,13 +10,11 @@ The video games industry continues to grow at a rapid pace, and shows no signs o
 
 A team of data analytics consultants, referred to as the "Red Team," has been tasked to transform data into information that provides profit-maximizing business insight for video game sales. To accomplish this task, the team will build and evaluate several ML models or algorithms (e.g.,Logistic regression, Neural Network). Using ML will enable the team to leverage existing algorithms to learn from the data and lead to more accurate predictions.
 
-
 ## Purpose
 
 For this project, the team will analyze the potential profits for a video game launch in the European region. The team will build a predictive ML model to find patterns in existing and new sales data. Once the model is created, its performance will be evaluated to see how well it predicts the data. 
 
 In addition, the team will attempt to market the algorithm to existing companies in the gaming sector or organizations looking to get involved in the industry.
-
 
 ## Resources
 
@@ -34,26 +32,9 @@ In addition, the team will attempt to market the algorithm to existing companies
 
 - <img src="https://brand.heroku.com/static/media/heroku-logotype-spacing-vertical.dc54b577.svg" alt="Heroku" width="30px" height="30px"> Heroku
 
-
-## Communication Protocol
-
-The team’s communication protocol will be relatively similar for all segments of the project. The team is aware of the importance of communicating with each other in order to achieve a successful outcome. The members will continue to respect lines communication, address any disagreements early on, and collectively work on assignments distributed according to function and expertise. The following communication protocol was established:
-
-- Roles and requirements are clearly defined
-- Use Slack channel to schedule meetings, discuss opinions, and findings 
-- Inform the acting leader via Slack or text message on schedule conflicts
-- Ask for help when stuck on an individual task
-- Recognize and praise a member’s great work
-- Maintain open communication and active listening to prevent conflicts 
-- Schedule group meetings via Zoom as needed 
-- Milestone status is regularly reported to the team
-- Motivate each other
-
-
 ## Reason for Topic Selection
 
 Predicting video game sales was considered to be an interesting and fun topic to analyze. Video games have been around for many years and have evolved significantly over time. Game development is also becoming increasingly common in many organizations. It is also a huge market that provides entertainment for children and adults alike. 
-
 
 ## Data Description
 
@@ -66,7 +47,6 @@ A CSV dataset, named vgsales.csv, will be used for the analysis. The dataset con
 - Genre: The genre of the game
 - Publisher: The publisher of the game
 - Sales (NA, EU, JP, Other, Global): Sales in North America, Sales in Europe, Sales in Japan, Sales in the rest of the world, and Total worldwide sales
-
 
 ## Project Question
 
@@ -97,7 +77,6 @@ The team strategically selected which columns to drop and keep to properly train
 #### Total Regional Sales
 ![sales_all_locations2.PNG](images/sales_all_locations2.png)
 
-
 #### Description of how data was split into training and testing sets
 
 The data was split into the training and testing sets using the *train_test_split*
@@ -108,7 +87,6 @@ After lengthy consideration, the team elected to go with a Logistic Regression m
 
 One potential drawback to Logistic Regression model is related to the size of the data and the convergence of the model. Several optimizers were explored with the Logistic Regression model, and it was found that some optimizers required a significant number of iterations for the model to converge. Hyperparameter tuning was also investigated in an attempt to improve the model performance, but the team observed that there was not much to be gained in terms of model accuracy via hyperparameter tuning.
 
-
 #### Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables) 
 
 #### Description of how they have trained the model thus far, and any additional training that will take place 
@@ -116,8 +94,6 @@ One potential drawback to Logistic Regression model is related to the size of th
 #### Description of current accuracy score
 
 #### How the model addresses the question
-
-
 
 ## QuickDBD Mockup
 
@@ -148,7 +124,6 @@ https://docs.google.com/presentation/d/1xscv3WHg-kAVCQeLhKaqSvw58ImNI4yrhc5Y1BQr
 
 ## Tableau Workbook
 https://public.tableau.com/app/profile/jacqueline.esbri/viz/FinalProjectTeamRedPresentation_16270732094330/TitlePage?publish=yes
-
 
 ## References
 
