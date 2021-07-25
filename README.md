@@ -99,7 +99,7 @@ There was no change in model choice between the Segment 2 and Segment 3 delivera
 
 As mentioned previously, the training data in its raw form contained a fairly large class imbalance between *0* instances and *1* instances. In order to mitigate the class imbalance and optimize the model performance, random oversampling was used to balance the values in the *0* class and the *1* class as shown in the image below.
 
-![oversample_and_train](images/ML_oversampling.PNG)
+![oversample_and_train](https://github.com/SindieCastro/Predicting_Sales_Using_Machine_Learning/blob/main/images/ML_oversampling.png)
 
 The image above also shows the training method used for the logistic regression model. The model was trained on the resampled training data using the *lbfgs* solver with a maximum of 200 iterations.
 
