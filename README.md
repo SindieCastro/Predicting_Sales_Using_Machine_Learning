@@ -154,7 +154,7 @@ After the data was loaded into Heroku, a connection was established using heroku
 
 ## Dashboard
 
-![Dashboard image](https://user-images.githubusercontent.com/78306719/126910401-3af718d8-c2bc-485e-b280-0b30595c9522.PNG)
+![Presentation](https://user-images.githubusercontent.com/74743437/127715259-063afd68-d5b6-4a7d-bf3d-243ebf564aaa.png)
 
 
 ## Google Slides
