@@ -12,9 +12,9 @@ A team of data analytics consultants, referred to as the "Red Team," has been ta
 
 ## Purpose
 
-For this project, the team will analyze the potential profits for a video game launch in the European region. The team will build a predictive ML model to find patterns in existing and new sales data. Once the model is created, its performance will be evaluated to see how well it predicts the data. 
+For this project, the team analyzed the potential profits for a video game launch in the European region. The team built a predictive ML model to find patterns in existing and new sales data. Once the model was created, its performance was evaluated to see how well it predicted the data. 
 
-In addition, the team will attempt to market the algorithm to existing companies in the gaming sector or organizations looking to get involved in the industry.
+In addition, the team attempted to market the algorithm to existing companies in the gaming sector or organizations looking to get involved in the industry.
 
 ## Resources
 
@@ -38,7 +38,7 @@ Predicting video game sales was considered to be an interesting and fun topic to
 
 ## Data Description
 
-A CSV dataset, named vgsales.csv, will be used for the analysis. The dataset contains 16,599 rows and the following columns: 
+A CSV dataset, named vgsales.csv, were used for the analysis. The dataset contained 16,599 rows and the following columns: 
 
 - Rank: The ranking of overall sales
 - Name: The name of the games
@@ -87,9 +87,9 @@ The *stratify* parameter was set to *y* to maintain the same proportion of 0 and
 
 #### Model choice, including limitations and benefits
 
-After lengthy consideration, the team elected to go with a Logistic Regression model for this data. The Logistic Regression model was chosen because the question the team is trying to answer is a binary classification problem for which Logistic Regression is well-suited. The Logistic Regression model is advantageous in this case because it is easy to implement and easy to understand. Furthermore, the data includes a limited number of features prior to categorical variable encoding, and the team was concerned that a complex model might overfit the data as a result. 
+After lengthy consideration, the team elected to go with a Logistic Regression model for this data. The Logistic Regression model was chosen because the question the team was trying to answer is a binary classification problem for which Logistic Regression is well-suited. The Logistic Regression model is advantageous in this case because it is easy to implement and easy to understand. Furthermore, the data includes a limited number of features prior to categorical variable encoding, and the team was concerned that a complex model might overfit the data as a result. 
 
-One potential drawback to Logistic Regression model is related to the size of the data and the convergence of the model. Several optimizers were explored with the Logistic Regression model, and it was found that some optimizers required a significant number of iterations for the model to converge. Hyperparameter tuning was also investigated in an attempt to improve the model performance, but the team observed that there was not much to be gained in terms of model accuracy via hyperparameter tuning.
+One potential drawback to Logistic Regression model was related to the size of the data and the convergence of the model. Several optimizers were explored with the Logistic Regression model, and it was found that some optimizers required a significant number of iterations for the model to converge. Hyperparameter tuning was also investigated in an attempt to improve the model performance, but the team observed that there was not much to be gained in terms of model accuracy via hyperparameter tuning.
 
 #### Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables) 
 
@@ -140,7 +140,7 @@ ERD:
 
 ### Database layout and Design
 
-The team has decided to utilize Heroku for the online database. After cleaning the data and considering the constraints from Heroku regarding row limits, the data was divided into three categories: games, platforms, and genres. Once these categories were established, three CSV files were generated (using vg_db_csv_creator.ipynb) to populate the table data in pgAdmin and uploaded into the Heroku database.    
+The team utilized Heroku for the online database. After cleaning the data and considering the constraints from Heroku regarding row limits, the data was divided into three categories: games, platforms, and genres. Once these categories were established, three CSV files were generated (using vg_db_csv_creator.ipynb) to populate the table data in pgAdmin and uploaded into the Heroku database.    
 
 CSV Data Imported into pgAdmin:
 
