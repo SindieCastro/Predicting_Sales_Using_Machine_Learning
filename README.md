@@ -10,7 +10,7 @@ A team of data analytics consultants, referred to as the "Red Team," was tasked 
 
 ## Purpose
 
-For this project, the team attempted to predict the binary outcomes of potential profits for a video game launch in the European region. The team decided to build a Logistic Regression model in order for it to analyze the available data, and when presented with a new sample, mathematically determines its probability for belonging to a class. 
+For this project, the team attempted to predict the binary outcomes of potential profits for a video game launch in the European region. The team decided to build a Logistic Regression model in order for it to analyze the available data and when presented with a new sample, mathematically determines its probability for belonging to a class. 
 
 Once the model was completed, its performance was evaluated to see how well it predicted the binary outcomes.
 
@@ -35,7 +35,7 @@ Predicting video game sales was considered to be an interesting and fun topic to
 
 ## Data Description
 
-A CSV dataset, named vgsales.csv, was be used for the analysis. The dataset contained 16,599 rows and the following columns: 
+A CSV dataset, named vgsales.csv, was used for the analysis. The dataset contained 16,599 rows and the following columns: 
 
 - Rank: The ranking of overall sales
 - Name: The name of the games
