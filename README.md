@@ -134,7 +134,7 @@ ERD:
 
 ### Database layout and Design
 
-The team decided to utilize Heroku for the online database. After cleaning the data and considering the constraints from Heroku regarding row limits, the data was divided into three categories: games, platforms, and genres. Once these categories were established, three CSV files were generated (using vg_db_csv_creator.ipynb) to populate the table data in pgAdmin and uploaded into the Heroku database.    
+The team utilized Heroku for the online database. After cleaning the data and considering the constraints from Heroku regarding row limits, the data was divided into three categories: games, platforms, and genres. Once these categories were established, three CSV files were generated (using vg_db_csv_creator.ipynb) to populate the table data in pgAdmin and uploaded into the Heroku database.    
 
 CSV Data Imported into pgAdmin:
 
@@ -159,7 +159,7 @@ https://docs.google.com/presentation/d/1wRn_DMTICQlc5AWBJ5g96msv_DWjqQZWoBNYVVqa
 https://docs.google.com/presentation/d/1xscv3WHg-kAVCQeLhKaqSvw58ImNI4yrhc5Y1BQruPc/edit?usp=sharing
 
 ## Tableau Workbook
-https://public.tableau.com/app/profile/jacqueline.esbri/viz/FinalProjectTeamRedPresentation_16270732094330/TitlePage?publish=yes
+https://public.tableau.com/views/FinalProjectTeamRedPresentation_16275163631940/Presentation?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 
 ## References
 
