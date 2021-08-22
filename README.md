@@ -132,7 +132,7 @@ ERD:
 ![ERD](https://github.com/SindieCastro/Predicting_Sales_Using_Machine_Learning/blob/main/images/schema_1.PNG)
 
 
-### Database layout and Design
+### Database Layout and Design
 
 The team utilized Heroku for the online database. After cleaning the data and considering the constraints from Heroku regarding row limits, the data was divided into three categories: games, platforms, and genres. Once these categories were established, three CSV files were generated (using vg_db_csv_creator.ipynb) to populate the table data in pgAdmin and uploaded into the Heroku database.    
 
